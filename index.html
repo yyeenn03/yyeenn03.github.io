@@ -9,6 +9,10 @@
                 padding: 8px;
             }
             </style>
+        <script>
+            function changeimage(image)
+            {document.getElementById("test").src=image;}
+        </script>
     </head>
     <body>
         <h3>
@@ -74,5 +78,16 @@
         <a href="month5.html">
             [월간일정표]
         </a>
+    <hr>
+    <img id='test' src="patnmat.jpg" width="120px"
+         onmouseover="changeimage('패트와매트.jpg')" onmouseout="changeimage('patnmat.jpg')">
+
+    <img onmouseout="this.style.width='100px'"onmouseover="this.style.width='150px'" src="라쿤.jpg" width="100px">
+        
+    <img id="catndog" src="유령강쥐.jpg" width="120px";>
+    <button onclick="document.getElementById('catndog').src='고양이.jpg'">
+        고양이 보기</button>
+    <button onclick="document.getElementById('catndog').src='유령강쥐.jpg'">
+        강아지 보기</button>
     </body>
 </html>
