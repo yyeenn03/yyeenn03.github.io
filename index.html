@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <style>
         *{font-family:'YUniverse-B', sans-serif;}
+        #page {margin: 0 auto; width: 1300px; }
         .clear {clear: both;}
         @font-face {
             font-family: 'YUniverse-B';
@@ -14,11 +15,12 @@
             src: url(Y_universe_FONT/YUniverse-L.otf) format('woff')
         }
         .header {font-family:'YUniverse-B', sans-serif; color: rgb(255, 159, 191); text-align: center; height: 100px; font-size: 80px; text-shadow: 5px 4px 3px white;}
-        .nav {font-family:'YUniverse-B', sans-serif; font-size: 18px; text-align: center; padding-top: 20px; padding-left: 100px; width: 1300px; height: 10px;}
+        .nav {font-family:'YUniverse-B', sans-serif; font-size: 18px; text-align: center; padding-top: 20px; padding-left: 1px; width: 1300px; height: 20px;}
         .section {float: left; font-family:'YUniverse-B', sans-serif; padding-left: 100px;}
         .aside {float: left; font-family:'YUniverse-B', sans-serif; padding-left: 20px; padding-bottom: 30px;}
-        .aside2 {float: left; font-family:'YUniverse-B', sans-serif; padding-left: 550px; padding-bottom: 30px;}
-        .footer {float: left; font-family:'YUniverse-L', sans-serif;}
+        .aside2 {float: left; font-family:'YUniverse-B', sans-serif; padding-left: 200px; padding-top: 20px; padding-bottom: 30px;}
+        .aside3 {float: left; text-align: center; text-size: 18px; border: solid 5px rgb(255, 182, 244); border-radius:25px; margin-left: 100px; margin-top:20px; padding: 10px; width: 400px; height: 250px;}
+        .footer {float: left; font-family:'YUniverse-B', sans-serif;}
         table, tr, th, td {
                 border: solid 2px black;
                 border-collapse: collapse;
@@ -33,6 +35,7 @@
         h3:link {text-decoration: none; color:black;}
         footer {font-size: 18px; width: 1200px; height: 120px; margin-top: 50px; margin-bottom: 50px; padding-left: 100px;}
         button {font-family:'YUniverse-B', sans-serif;}
+        span {color:rgb(231, 139, 170); font-size: 25px; text-shadow: 3px 2px 2px white;}
        
         a:visited {text-decoration: none; color: black;}
         a:hover {text-decoration: none; color: palevioletred;} 
@@ -52,6 +55,9 @@
         #웹프:hover{background-color: none; background-color: rgb(182, 126, 183);}
         #공감:hover{background-color: none; background-color: rgb(40, 95, 124);}
         #기업가:hover{background-color: none; background-color: rgb(224, 153, 86);}
+        #W{list-style-type: none;}
+        ul {padding: 5px;}
+        li{text-decoration: underline 3px rgb(231, 139, 170);}
         </style>
         <title>예은이의 홈페이지</title>
         <script>
@@ -60,7 +66,7 @@
         </script>
     </head>
     <body>
-    <div>
+    <div id="page">
         <header class="header">
             웄 예은이의 홈페이지 빁
         </header>
@@ -132,6 +138,19 @@
                 <img src="찰리푸스.jpg" width="300px;"></a><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;뮺 CHARLIE PUTH - LOSER<br>
         </aside></div>
+        <div> 
+            <aside class="aside3">
+                <p><span>빆 목표 빆</span></p>
+                <ul id="W">
+                    <li><input type="checkbox"> 물 마시기</li>
+                    <li><input type="checkbox"> 소금 닭꼬치 먹기</li>
+                    <li><input type="checkbox"> 운전 연습 꾸준히 하기</li>
+                    <li><input type="checkbox"> 치킨 먹기</li>
+                    <li><input type="checkbox"> 조던 사기</li>
+                    <li><input type="checkbox"> 쿠키 만들기</li>
+                    <li><input type="checkbox"> 한강 보드 타기</li>
+                </ul>
+            </aside></div>
         <div>
     <aside class="aside2">
         <h3>웑 사진 보기 웑</h3>
@@ -144,11 +163,11 @@
     <button onclick="document.getElementById('catndog').src='유령강쥐.jpg'">
         강아지 보기</button>
     </aside></div>
-    
     <div>
     <footer class="footer">
-        20220343 박예은<br>
-        INSTAGRAM: @yyeenn_j
+        <h2>핱</h2>
+        웆 20220343 박예은<br>
+        짃 INSTAGRAM: @yyeenn_j
     </footer></div>
     </div>
     </body>
