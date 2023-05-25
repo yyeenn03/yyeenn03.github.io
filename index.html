@@ -3,94 +3,153 @@
     <head>
         <meta charset="utf-8">
         <style>
-            table, tr, th, td {
-                border: solid 1px black;
+        *{font-family:'YUniverse-B', sans-serif;}
+        .clear {clear: both;}
+        @font-face {
+            font-family: 'YUniverse-B';
+            src: url(Y_universe_FONT/YUniverse-B.otf) format('woff')
+        }
+        @font-face {
+            font-family: 'YUniverse-L';
+            src: url(Y_universe_FONT/YUniverse-L.otf) format('woff')
+        }
+        .header {font-family:'YUniverse-B', sans-serif; color: rgb(255, 159, 191); text-align: center; height: 100px; font-size: 80px; text-shadow: 5px 4px 3px white;}
+        .nav {font-family:'YUniverse-B', sans-serif; font-size: 18px; text-align: center; padding-top: 20px; padding-left: 100px; width: 1300px; height: 10px;}
+        .section {float: left; font-family:'YUniverse-B', sans-serif; padding-left: 100px;}
+        .aside {float: left; font-family:'YUniverse-B', sans-serif; padding-left: 20px; padding-bottom: 30px;}
+        .aside2 {float: left; font-family:'YUniverse-B', sans-serif; padding-left: 550px; padding-bottom: 30px;}
+        .footer {float: left; font-family:'YUniverse-L', sans-serif;}
+        table, tr, th, td {
+                border: solid 2px black;
                 border-collapse: collapse;
                 padding: 8px;
-            }
-            </style>
+                text-align: center;
+                background-color: white;
+                margin-right: 200px;}
+        body {background-color: rgb(192, 237, 255);}
+        h3 {font-family:'YUniverse-B', sans-serif; padding-left: 100px; padding-top: 20px;}
+        h3:visited {text-decoration: none; color: black;}
+        h3:hover {text-decoration: none; color: rgb(255, 255, 129);} 
+        h3:link {text-decoration: none; color:black;}
+        footer {font-size: 18px; width: 1200px; height: 120px; margin-top: 50px; margin-bottom: 50px; padding-left: 100px;}
+        button {font-family:'YUniverse-B', sans-serif;}
+       
+        a:visited {text-decoration: none; color: black;}
+        a:hover {text-decoration: none; color: palevioletred;} 
+        a:link {text-decoration: none; color:black;}
+
+        #디콘비 {background-color: rgb(254, 254, 120);}
+        #경정시 {background-color:rgb(255, 183, 207);}
+        #천안 {background-color: rgb(126, 255, 126);}
+        #영어 {background-color:rgb(192, 237, 255);}
+        #웹프 {background-color:rgb(208, 147, 255);}
+        #공감 {background-color:rgb(151, 168, 214);}
+        #기업가 {background-color:rgb(249, 237, 185);}
+        #디콘비:hover{background-color: none; background-color: rgb(175, 192, 120);}
+        #경정시:hover{background-color: none; background-color: rgb(219, 115, 115);}
+        #천안:hover{background-color: none; background-color: rgb(78, 163, 56);}
+        #영어:hover{background-color: none; background-color: rgb(147, 197, 224);}
+        #웹프:hover{background-color: none; background-color: rgb(182, 126, 183);}
+        #공감:hover{background-color: none; background-color: rgb(40, 95, 124);}
+        #기업가:hover{background-color: none; background-color: rgb(224, 153, 86);}
+        </style>
+        <title>예은이의 홈페이지</title>
         <script>
             function changeimage(image)
             {document.getElementById("test").src=image;}
         </script>
     </head>
     <body>
-        <h3>
-            환영합니다! 20220343 박예은의 홈페이지입니다.
-        </h3>
-        <h3>2023-1학기 시간표</h3>
-        <table>
-            <tr>
-                <th>2023-1</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
-            </tr>
-            <tr>
-                <td>1교시</td><td rowspan="12">공강</td><td></td><td></td><td></td>
-            </tr>
-            <tr>
-                <td>2교시</td><td></td><td rowspan="2">천안의이해</td><td>디지털콘텐츠<br>비즈니스개론</td><td rowspan="2">웹프로그래밍</td>
-            </tr>
-            <tr>
-                <td>3교시</td><td rowspan="2">디지털콘텐츠<br>비즈니스개론</td><td rowspan="2">대학영어회화2</td>
-            </tr>
-            <tr>
-                <td>4교시</td><td></td><td></td>
-            </tr>
-            <tr>
-                <td>5교시</td><td rowspan="2">경영정보<br>시스템</td><td>경영정보<br>시스템</td><td></td>
-            </tr>
-            <tr>
-                <td>6교시</td><td></td><td></td>
-            </tr>
-            <tr>
-                <td>7교시</td><td></td><td></td><td></td>
-            </tr>
-            <tr>
-                <td>8교시</td><td></td><td></td><td></td>
-            </tr>
-            <tr>
-                <td>9교시</td><td rowspan="2">공감과소통</td><td rowspan="2">기업가정신과<br>창업기초</td><td></td>
-            </tr>
-            <tr>
-                <td>10교시</td><td></td>
-            </tr>
-            <tr>
-                <td>11교시</td><td></td><td></td><td></td>
-            </tr>
-            <tr>
-                <td>12교시</td><td></td><td></td><td></td><td>웹프로그래밍</td>
-            </tr>
-        </table>
-        <a href="form_test.html">
-            [회원가입]
-        </a><br>
-        <a href="rubato.html">
-            [루바토 펜션 안내]
-        </a><br>
-        <a href="hoseo1.html">
-            [행사안내]
-        </a><br>
-        <a href="night.html">
-            [주말야간개장]
-        </a><br>
-        <a href="sale.html">
-            [세일 안내장]
-        </a><br>
-        <a href="month5.html">
-            [월간일정표]
-        </a><br>
-        <a href="쇼핑몰판매목록.html">
-            [쇼핑몰 판매 목록]
-        </a>
-    <hr>
-    <img id='test' src="patnmat.jpg" width="120px"
-         onmouseover="changeimage('패트와매트.jpg')" onmouseout="changeimage('patnmat.jpg')">
+    <div>
+        <header class="header">
+            웄 예은이의 홈페이지 빁
+        </header>
 
-    <img onmouseout="this.style.width='100px'"onmouseover="this.style.width='150px'" src="라쿤.jpg" width="100px">
-        
-    <img id="catndog" src="유령강쥐.jpg" width="120px";>
+    <div>
+        <nav class="nav">
+            <a href="form_test.html">회원가입</a> ㅣ
+            <a href="rubato.html">루바토 펜션 안내</a> ㅣ
+            <a href="hoseo1.html">행사안내</a> ㅣ
+            <a href="night.html">주말야간개장</a> ㅣ
+            <a href="sale.html">세일 안내장</a> ㅣ
+            <a href="month5.html">월간일정표</a> ㅣ
+            <a href="쇼핑몰판매목록.html">쇼핑몰 판매 목록</a>
+        </nav>
+    </div>
+        <h3>웊 옌 시간표 웊</h3>
+        <div>
+            <section class="section">
+                <table>
+                    <tr>
+                        <th>2023-1</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
+                    </tr>
+                    <tr>
+                        <td>1교시</td><td rowspan="12">빃공강빃</td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>2교시</td><td></td><td rowspan="2" id="천안">천안의이해</td><td id="디콘비">디지털콘텐츠<br>비즈니스개론</td><td rowspan="2" id="웹프">웹프로그래밍</td>
+                    </tr>
+                    <tr>
+                        <td>3교시</td><td rowspan="2" id="디콘비">디지털콘텐츠<br>비즈니스개론</td><td rowspan="2" id="영어">대학영어회화2</td>
+                    </tr>
+                    <tr>
+                        <td>4교시</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>5교시</td><td rowspan="2" id="경정시">경영정보<br>시스템</td><td id="경정시">경영정보<br>시스템</td><td></td>
+                    </tr>
+                    <tr>
+                        <td>6교시</td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>7교시</td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>8교시</td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>9교시</td><td rowspan="2" id="공감">공감과소통</td><td rowspan="2" id="기업가">기업가정신과<br>창업기초</td><td></td>
+                    </tr>
+                    <tr>
+                        <td>10교시</td><td></td>
+                    </tr>
+                    <tr>
+                        <td>11교시</td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td>12교시</td><td></td><td></td><td></td><td id="웹프">웹프로그래밍</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        <div>
+            <aside class="aside">
+                <h3>뮻 음악 뮻</h3>
+                <a href="https://youtu.be/i0RCcSBPjuU">
+                <img src="에스파.jpg" width="300px;"></a><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;뮺 AESPA - THIRSTY<br>
+                <a href="https://youtu.be/T_wUb9NyPN8">
+                <img src="찰리푸스.jpg" width="300px;"></a><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;뮺 CHARLIE PUTH - LOSER<br>
+        </aside></div>
+        <div>
+    <aside class="aside2">
+        <h3>웑 사진 보기 웑</h3>
+        <img id='test' src="patnmat.jpg" width="120px"
+         onmouseover="changeimage('패트와매트.jpg')" onmouseout="changeimage('patnmat.jpg')">
+         <img onmouseout="this.style.width='100px'"onmouseover="this.style.width='150px'" src="라쿤.jpg" width="100px">
+        <img id="catndog" src="유령강쥐.jpg" width="120px";>
     <button onclick="document.getElementById('catndog').src='고양이.jpg'">
         고양이 보기</button>
     <button onclick="document.getElementById('catndog').src='유령강쥐.jpg'">
         강아지 보기</button>
+    </aside></div>
+    
+    <div>
+    <footer class="footer">
+        20220343 박예은<br>
+        INSTAGRAM: @yyeenn_j
+    </footer></div>
+    </div>
     </body>
 </html>
